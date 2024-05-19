@@ -1,0 +1,61 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000;
+}
+h1, h2, h3{
+    color: rebeccapurple;
+}
+p, figcaption{
+    color: blanchedalmond;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:rgb(157, 75, 162); text-decoration: none;}
+ul :hover{
+    color: rgb(207, 194, 194);
+}
+.bar {
+    background-color: #f9f9fb;
+    background-image: url(img/background.png) ;
+    background-repeat: no-repeat;
+  background-size: cover;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+p{
+    text-align: justify;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+
+video{
+    text-align: center;
+}
+img, a, :hover{
+    color: #f5eff5;
+}
