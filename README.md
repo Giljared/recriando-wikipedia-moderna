@@ -1,8 +1,11 @@
 ![imagemHome](https://github.com/Giljared/recriando-wikipedia-moderna/assets/64940515/8d9e8fee-0ec6-4cb1-bdd2-77b18aaa463d)
 
 
-# recriando-wikipedia-moderna
-recriando wikipedia moderna
+<span align="center">
+
+##  Recriando a Website/moderno Wikimedia com HTML e CSS 👋 
+
+</span>
 # Recriando a Website/moderno Wikimedia com HTML e CSS
 Introdução
 
